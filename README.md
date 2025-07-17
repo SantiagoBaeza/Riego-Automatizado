@@ -1,7 +1,7 @@
 
 ## 🌱 Sistema de Riego Automatizado con LCD y Sensor de Humedad
 
-Este proyecto implementa un sistema de riego automático utilizando un **sensor de humedad de suelo**, **rele**, **LEDs indicadores**, y una **pantalla LCD 16x2** para mostrar el estado en tiempo real. Fue desarrollado y probado en [Tinkercad](https://www.tinkercad.com) con miras a ser usado en un entorno real.
+Este proyecto implementa un sistema de riego automático utilizando un **sensor de humedad de suelo**, **rele**, **LEDs indicadores**, y una **pantalla LCD 16x2** para mostrar el estado en tiempo real. Fue desarrollado y probado en [Tinkercad](https://www.tinkercad.com/things/7xR8ddvjRx1-riego-automatizado) (simulacion)con miras a ser usado en un entorno real.
 
 ---
 
@@ -32,7 +32,7 @@ Detectar el nivel de humedad del suelo y **activar una bomba de agua automática
 🧠 El circuito se encuentra simulado en Tinkercad.
 📸 A continuación se muestra el diseño con sus respectivas etiquetas explicativas:
 
-![Circuito Tinkercad](ruta/a/la/imagen-del-circuito.png)
+![Circuito Tinkercad](https://github.com/SantiagoBaeza/Riego-Automatizado/blob/main/01%20esquema%20en%20tinkercad%20.jpg)
 
 > 💡 **Importante**: El relay está activado con un transistor para evitar que el Arduino suministre directamente corriente excesiva al módulo.
 
