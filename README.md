@@ -95,6 +95,7 @@ if(analogRead(A0)<300){
 * Incorporar un módulo Wi-Fi (ESP8266/ESP32) para control remoto
 * Añadir sensor de temperatura o humedad ambiental
 * Guardar lecturas en una tarjeta SD
+* Implementar este circuito a una pantalla lcd I2C 
 
 ---
 
