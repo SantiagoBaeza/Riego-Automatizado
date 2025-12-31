@@ -5,7 +5,7 @@ Este proyecto implementa un sistema de riego automático utilizando un **sensor 
 
 ---
 
-### 📌 Objetivo
+### Objetivo
 
 Detectar el nivel de humedad del suelo y **activar una bomba de agua automáticamente** si el suelo está seco, mostrando mensajes informativos en una pantalla LCD para que el usuario tenga feedback visual claro.
 
@@ -29,12 +29,12 @@ Detectar el nivel de humedad del suelo y **activar una bomba de agua automática
 
 ###  Esquema de conexión
 
-🧠 El circuito se encuentra simulado en Tinkercad.
-📸 A continuación se muestra el diseño con sus respectivas etiquetas explicativas:
+ El circuito se encuentra simulado en Tinkercad.
+ A continuación se muestra el diseño con sus respectivas etiquetas explicativas:
 
 ![Circuito Tinkercad](https://github.com/SantiagoBaeza/Riego-Automatizado/blob/main/01%20esquema%20en%20tinkercad%20.jpg)
 
-> 💡 **Importante**: El relay está activado con un transistor para evitar que el Arduino suministre directamente corriente excesiva al módulo.
+>  **Importante**: El relay está activado con un transistor para evitar que el Arduino suministre directamente corriente excesiva al módulo.
 
 ---
 
@@ -99,7 +99,7 @@ if(analogRead(A0)<300){
 
 ---
 
-### 📂 Archivos
+### Archivos
 
 * `codigo.ino` – Código principal
 * `diagrama.png` – Imagen del circuito
